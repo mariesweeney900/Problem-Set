@@ -1,0 +1,28 @@
+# Problem set program question number one Marie Dillane
+num = input('Please enter a positive number'):
+# Prompts the user to input a positive number
+int_input(num)
+# Stores the results of this input in variable called num
+def int_input(num):
+# Python executes the code defined inside the function
+  if num != type(int()) and num < 1:
+print('This is not a positive number, type again')
+
+  else:
+  
+  print(num)
+  
+ # If the number typed is not of the condition met passed through the type function and the number is less than 1 it is not a positive number and the else statement 
+prints the number when these conditions are not true
+
+sum_num = 0
+
+if num != 0:
+  for i in range (1, num+1):
+  sum_num += i
+  print(sum_num)
+else:
+  exit()
+  
+  #The sum function adds the items and produces their sum when the number is not equal to zero and outputs the sum of numbers between one and that number, through variable i and prints the sum, when the condition is not met the system will exit.
+  
