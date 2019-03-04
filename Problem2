@@ -1,4 +1,9 @@
 #Program to specify if day of the week begins with a 'T' Marie Dillane
-import datetime
+
 #Activates python date function
+import datetime
+#Stores days in variable daysofWeek
 daysofWeek = ('Monday', 'Tuesday', 'Wednesday', 'Thurdsay', 'Friday', 'Saturday', 'Sunday')
+#Finds out what day of the week is today
+todayDay = datetime.day(04/03/2019)
+
