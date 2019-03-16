@@ -1,0 +1,8 @@
+import datetime
+# imports python date function
+if datetime.datetime.today().weekday() == 1 or 3:
+# if today's weekday is 1 or 3 either a Tuesday or Thursday
+  print("Today begins with a T.")
+  else
+  print("Today does not begin with T.")
+  #prints today begins with a T when the above condition is true or prints the opposite if condition is false
