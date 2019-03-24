@@ -1,0 +1,9 @@
+x=int(input("Please enter a positive number")
+y=("End")
+ifx==1
+ print(y)
+elif(x%2==0)
+ print(x/2)
+elif(x%2!=)
+ print((x*3)+1)
+exit(0)
