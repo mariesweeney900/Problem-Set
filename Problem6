@@ -1,1 +1,7 @@
+x=input("Please input a sentence:")
+#prompts the user to enter a string
+y=x.split()
+#actvates the split method which breaks the given string
+print(y[::2])
+#breaks the given string into every second word
 
