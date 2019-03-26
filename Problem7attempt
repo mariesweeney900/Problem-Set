@@ -1,0 +1,11 @@
+import math
+#activates the math function
+x=float(input("Please enter a positive number:"))
+#prompts the user to enter a positive number
+input_sqrt=math_sprt(input)
+#returns the square root of the input
+if x<0:
+print("Invalid number")
+else
+print("Square root of {} and {}".format(input,math.sqrt(input)))
+
