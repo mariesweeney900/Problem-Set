@@ -1,0 +1,6 @@
+import datetime   
+#activates python datetime function
+today = datetime.datetime.today()
+#uses the datetime function that gets today's date
+print (today.strftime("%Y-%m-%d-%I-%M"))
+#prints the year, month, day, hours and minutes
