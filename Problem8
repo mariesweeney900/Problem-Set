@@ -1,1 +1,6 @@
-
+import datetime   
+#activates python datetime function
+x = datetime.datetime.x(1, January 10, 2019, 1.15)
+#uses the datetime function that gets today's date
+print (x.strftime("%w-%B-%d-%Y-%I-%M %p"))
+#prints the year, month, day, hours and minutes
