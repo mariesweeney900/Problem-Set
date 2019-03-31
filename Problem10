@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 #activates the python matplotlib function that works like matlab
+#Python Software Foundation. Python Language Reference, version 3.3. Available at http://www.python.org
 x=int(input(("Enter a number"))
 #requests that the user enters a number
 print("Number is:", x)
 #prints statement "Number is:" and the value of x
 plt.plot([x,x**2,2**x])
 #displays a plot of the above functions
+#Python Software Foundation. Python Language Reference, version 3.3. Available at http://www.python.org
 plt.axis([0,16,0,16])
 #plots x and y axis results of functions in the range (0,4)
 plt.show()
