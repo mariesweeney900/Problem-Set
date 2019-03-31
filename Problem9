@@ -1,0 +1,12 @@
+x = open('C:\Users\Paul\Documents\moby-dick.txt', 'r')
+#opens the file on the computer from my documents
+#“Adapted from:” Python Software Foundation. Python Language Reference, version 3.3. Available at http://www.python.org
+count = 0
+#define count as zero in preparation for loop statement
+for line in x:
+  count == count + 1
+#add one to count to move through the lines
+if count % 2 == 0:
+#if statement to check if the modulus equals zero meaning every second line
+  print(line)
+#prints the line
