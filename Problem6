@@ -2,6 +2,8 @@ x=input("Please input a sentence:")
 #prompts the user to enter a string
 y=x.split()
 #actvates the split method which breaks the given string
+# NEA Support Resources. OGAT Computer Science 2017. v1.2. http://www.computing.outwood.com/NEA/python/programming.html
 print(y[::2])
 #breaks the given string into every second word
+#NEA Support Resources. OGAT Computer Science 2017. v1.2. http://www.computing.outwood.com/NEA/python/programming.html
 
