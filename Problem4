@@ -1,9 +1,14 @@
 x=int(input("Please enter a positive number")
+#prompts the user to enter a positive number
 y=("End")
+#Python Software Foundation. Python Language Reference, version 3.3. Available at https://www.python.org/dev/peps/pep-0275/
 ifx==1
  print(y)
+#if x equals 1 then print "End"
 elif(x%2==0)
  print(x/2)
-elif(x%2!=)
+ #if x divided by 2 has a remainder of 0 then divide x by 2 and print the result
+elif(x%2!==0)
  print((x*3)+1)
+ #if x divided by 2 has a remainder other then 0 then multiply x by 3 , add one and print the result
 exit(0)
