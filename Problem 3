@@ -1,6 +1,7 @@
 for x in range (1000, 10000):
 #for all numbers in a range between 1000, 10000
-  if (x%6==0) and (x%12!=0):
+#"Adapted from" W3 Schools. Available at https://www.w3schools.com/python/ref_func_range.asp
+ if (x%6==0) and (x%12!=0):
 #if the number is divisible by 6 but not by 12
  print(x)
   else
