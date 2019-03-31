@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+#activates the python matplotlib function that works like matlab
+x=int(input(("Enter a number"))
+#requests that the user enters a number
+print("Number is:", x)
+#prints statement "Number is:" and the value of x
+plt.plot([x,x**2,2**x])
+#displays a plot of the above functions
+plt.axis([0,16,0,16])
+#plots x and y axis results of functions in the range (0,4)
+plt.show()
+#activates the show function which plots the functions on a graph
