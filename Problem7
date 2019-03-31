@@ -1,6 +1,10 @@
 import math
+#activates python math function
 x = float(input("Please enter a positive number:"))
+#prompts the user to enter a positive number
 if x<0:
- print("invalid number"
+ print("invalid number")
 else
  print(math.sqrt(x))
+ #if x>0 an "invalid number" message appears if not, the square root of the number is approximated
+ #Python Software Foundation. Python Language Reference, version 3.3. Available at http://www.python.org
