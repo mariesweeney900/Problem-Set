@@ -2,6 +2,7 @@ import datetime
 # imports python date function
 if datetime.datetime.today().weekday() == 1 or 3:
 # if today's weekday is 1 or 3 either a Tuesday or Thursday
+#“Adapted from:” Python Software Foundation. Python Language Reference, version 3.3. Available at http://www.python.org
   print("Today begins with a T.")
   else
   print("Today does not begin with T.")
